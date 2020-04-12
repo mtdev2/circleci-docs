@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "widdershins": "^3.6.7"
+    "widdershins": "^4.0.1"
   }
 }
