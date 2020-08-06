@@ -12,7 +12,7 @@ gem 'pygments.rb', '~> 1.2.1'
 group :jekyll_plugins do
   gem 'jekyll-algolia', '~> 1.0'
   gem 'jekyll-sitemap'
-  gem 'jekyll-assets'
+  gem 'jekyll-assets', '>= 3.0.12'
   # jekyll-assets depends on sprockets, which depends on rack, which has two
   # security vulnerabilities prior to 2.0.6.
   # https://nvd.nist.gov/vuln/detail/CVE-2018-16471
