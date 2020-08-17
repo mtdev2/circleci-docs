@@ -43,10 +43,14 @@ GEM
     extras (0.3.0)
       forwardable-extended (~> 2.5)
 
+    fastimage (2.1.7)
+
+
     fastimage (2.2.0)
 
     fastimage (2.1.5)
 snyk-fix-70e9365643c5d6e12f1f9dd9095b4b60
+snyk-fix-8233ad510d229135905d7195ed82970f
     ffi (1.13.1)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
@@ -160,11 +164,15 @@ snyk-fix-70e9365643c5d6e12f1f9dd9095b4b60
     rb-inotify (0.10.1)
       ffi (~> 1.0)
 
+    rouge (3.20.0)
+
+
     rouge (3.21.0)
 
     rexml (3.2.4)
     rouge (3.22.0)
 snyk-fix-70e9365643c5d6e12f1f9dd9095b4b60
+snyk-fix-8233ad510d229135905d7195ed82970f
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -199,7 +207,7 @@ DEPENDENCIES
   jekyll-assets (>= 3.0.12)
   jekyll-sitemap
   pygments.rb (~> 1.2.1)
-  rack (>= 2.0.6)
+  rack (>= 2.2.3)
 
 RUBY VERSION
    ruby 2.6.3p62
