@@ -43,10 +43,14 @@ GEM
     extras (0.3.0)
       forwardable-extended (~> 2.5)
 
+    fastimage (2.2.0)
+
+
     fastimage (2.1.7)
 
     fastimage (2.1.5)
 snyk-fix-54e2ff5f0cdcee9ceac86033f723f2b8
+snyk-fix-f4368fda48ff377446325e67c1659c55
     ffi (1.13.1)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
@@ -122,7 +126,7 @@ snyk-fix-54e2ff5f0cdcee9ceac86033f723f2b8
     mini_portile2 (2.4.0)
     minitest (5.14.1)
     multi_json (1.14.1)
-    nokogiri (1.10.9)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     nokogumbo (2.0.2)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -160,11 +164,15 @@ snyk-fix-54e2ff5f0cdcee9ceac86033f723f2b8
     rb-inotify (0.10.1)
       ffi (~> 1.0)
 
+    rouge (3.21.0)
+
+
     rouge (3.20.0)
 
     rexml (3.2.4)
     rouge (3.22.0)
 snyk-fix-54e2ff5f0cdcee9ceac86033f723f2b8
+snyk-fix-f4368fda48ff377446325e67c1659c55
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
     sass (3.7.4)
