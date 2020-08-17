@@ -30,7 +30,7 @@ GEM
       treetop (~> 1.6.0)
       ttfunk (~> 1.5.0, >= 1.5.1)
     colorator (1.1.0)
-    concurrent-ruby (1.1.6)
+    concurrent-ruby (1.1.7)
     css_parser (1.7.1)
       addressable
     em-websocket (0.5.1)
@@ -42,8 +42,16 @@ GEM
     execjs (2.7.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
+
+    fastimage (2.2.0)
+
+
+    fastimage (2.1.7)
+
     fastimage (2.1.5)
-    ffi (1.12.2)
+snyk-fix-54e2ff5f0cdcee9ceac86033f723f2b8
+snyk-fix-f4368fda48ff377446325e67c1659c55
+    ffi (1.13.1)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     hashery (2.1.2)
@@ -59,14 +67,14 @@ GEM
     httpclient (2.8.3)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.6)
+    jekyll (3.9.0)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
       i18n (~> 0.7)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 2.0)
-      kramdown (~> 1.14)
+      kramdown (>= 1.17, < 3)
       liquid (~> 4.0)
       mercenary (~> 0.3.3)
       pathutil (~> 0.9)
@@ -95,8 +103,9 @@ GEM
       nokogiri (~> 1.8)
       pathutil (~> 0.16)
       sprockets (>= 3.3, < 4.1.beta)
-    jekyll-sanity (1.2.0)
-      jekyll (~> 3.1)
+    jekyll-sanity (1.6.0)
+      jekyll (>= 3.1, < 5.0)
+      pathutil (~> 0.16)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.4.0)
@@ -104,7 +113,8 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.3.0)
-    kramdown (1.17.0)
+    kramdown (2.3.0)
+      rexml
     liquid (4.0.3)
     liquid-tag-parser (1.9.0)
       extras (~> 0.3)
@@ -116,7 +126,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.1)
     multi_json (1.14.1)
-    nokogiri (1.10.9)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     nokogumbo (2.0.2)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -145,15 +155,24 @@ GEM
       pdf-reader (~> 2.0)
       prawn (~> 2.2)
     progressbar (1.10.1)
-    public_suffix (4.0.4)
+    public_suffix (4.0.5)
     pygments.rb (1.2.1)
       multi_json (>= 1.0.0)
-    rack (2.2.2)
+    rack (2.2.3)
     rainbow (3.0.0)
-    rb-fsevent (0.10.3)
+    rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rouge (3.17.0)
+
+    rouge (3.21.0)
+
+
+    rouge (3.20.0)
+
+    rexml (3.2.4)
+    rouge (3.22.0)
+snyk-fix-54e2ff5f0cdcee9ceac86033f723f2b8
+snyk-fix-f4368fda48ff377446325e67c1659c55
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -161,7 +180,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    sprockets (3.7.2)
+    sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     thread_safe (0.3.6)
@@ -182,13 +201,13 @@ DEPENDENCIES
   asciidoctor
   asciidoctor-pdf (~> 1.5.0.rc.3)
   html-proofer
-  jekyll (= 3.8.6)
+  jekyll (= 3.9.0)
   jekyll-algolia (~> 1.0)
   jekyll-asciidoc
-  jekyll-assets
+  jekyll-assets (>= 3.0.12)
   jekyll-sitemap
   pygments.rb (~> 1.2.1)
-  rack (>= 2.0.6)
+  rack (>= 2.2.3)
 
 RUBY VERSION
    ruby 2.6.3p62
